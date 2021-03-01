@@ -77,7 +77,7 @@
         </nav>
         <div class="container py-4">
           <div class="row">
-            <div class="col-xs-12 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-md-3 col-lg-2">
 
               <ul class="list-unstyled">
                 <li> <a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a> </li>
@@ -88,7 +88,7 @@
 
             </div>
 
-            <main class="col-xs-12 col-md-9 col-lg-9">
+            <main class="col-xs-12 col-md-9 col-lg-10">
               @yield('content')
             </main>
           </div>
