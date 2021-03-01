@@ -88,7 +88,7 @@
 
             </div>
 
-            <main class="col-xs-12 col-md-3 col-lg-3">
+            <main class="col-xs-12 col-md-9 col-lg-9">
               @yield('content')
             </main>
           </div>
