@@ -22,7 +22,7 @@ Route::get('/contacts', 'PageController@contacts')->name('contacts');
 
 //Group middleware for admin
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::middleware('auth')->namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
     
