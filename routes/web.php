@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 // No admin
 
 Route::get('/', 'PageController@index')->name('homepage');
-Route::get('/about', 'PageController@index')->name('about');
-Route::get('/contact', 'PageController@index')->name('contact');
+Route::get('/about', 'PageController@about')->name('about');
+Route::get('/contacts', 'PageController@contacts')->name('contacts');
 
 
 //Group middleware for admin
